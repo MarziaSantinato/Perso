@@ -10,6 +10,7 @@
   <title>{{ renderData.title or title or metadata.title }}</title>
   <link rel="stylesheet" href="/styles/index.css">
 </head>
+<body id="top" itemscope itemtype="http://schema.org/WebPage">
 
 <div> 
   <a href="/"> Home</a>
@@ -18,10 +19,26 @@
   <a href="/Grupos/"> Grupos</a>
   <a href="/Que es/"> Qué es?</a>
   <a href="/Como funciona/"> Cómo funciona?</a>
-  </div>
+</div>
 
-<body id="top" itemscope itemtype="http://schema.org/WebPage">
   {{ content | safe }}
+
+<div class="footer">
+  <h3> Aún habrá que esperar un poco para obtener este artículo, ya que Perso de L’Oréal estará disponible a partir de 2021 y vinculado a una de las marcas del grupo.</h3>
+   
+    <div class="iconos">
+  <img src="../images/Insta.png" alt="">
+  <img src="../images/Twitter.png" alt="">
+  <img src="../images/Facebook.png" alt="">
+    </div>
+
+  <h5>Cookie settings</h5>    
+  <h5>Term of use</h5>
+  <h5>Privacy Policy</h5>
+  
+<h5> &copy; 2021 Marzia Santinato </h5>
+</div>
+
   <script src="/scripts/index.js"></script>
 </body>
 </html>
