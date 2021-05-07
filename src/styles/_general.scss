@@ -1,7 +1,3 @@
-*{
-    box-sizing: border-box;
-}
-
 body{
 background-color: #CEBDA0; ;
 color: black;
@@ -10,9 +6,28 @@ font-family: sans-serif;
 
 .menu1{
 background-color: white;
-width: 100%;
+width: 100vw;
 height: 80px;
-padding: -20px;
+margin: -9px;
+padding-top: 30px;
+}
+
+a{
+color: #332D2D;
+text-decoration: none;
+font-weight: bold;
+margin-right: 75px;
+text-align: center;
+margin-left: 50px;
+}
+
+p{
+color: #332D2D;
+text-decoration: none;
+font-weight: bold;
+margin-right: 50px;
+text-align: right;
+margin-top: -18px;
 }
 
 img{
