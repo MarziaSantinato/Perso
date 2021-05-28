@@ -1,16 +1,80 @@
+/* menu y 1era foto */
+
 .hero{
 color: white;
 font-weight: bold;
-font-size: 40px;
+font-size: 50px;
 text-align: center;
-width: 99vw;
-height: 700px;
-padding-top: 280px;
-
-border: 2px solid black;
+height: 420px;
+padding-top: 350px;
+padding-right: 70px;
+padding-left: 70px;
+background-image: url(../images/frascos1.jpg);
+background-size: 100vw;
 }
 
-h1{
-color:#332D2D;
+/* que es */
+
+.header{
+padding-left: 80px;
+padding-top: 10%;
+height: 600px;
 }
 
+.titulo-iz{
+color: #F5F4F3;
+font-size: 25px;
+padding-left: 70px;
+}
+
+.texto1{
+max-width: 400px; 
+font-size: 30px;
+text-align: Center;
+font-weight: bold;
+color: #F5F4F3;
+text-decoration: none;
+font-family: serif;
+padding-top: 25px;
+}
+
+.boton{
+ background-color: #5A5040;
+ color: #F5F4F3;
+ text-align: center;
+ border-radius: 30px;
+width: 100px;
+height: 30px;
+padding-top: 14px;
+font-weight: lighter;
+margin-left: 12%;
+margin-top: 65px;
+font-size: 14px;
+}
+
+/* como funciona */
+
+.bloque1{
+background-color: white;
+padding-left: 80px;
+padding-top: 10%;
+height: 600px;
+}
+
+/* quote */
+
+.quote{
+background-color: #CEBDA0;
+padding-left: 80px;
+padding-top: 10%;
+height: 600px;
+}
+
+/* tratamiento*/
+
+.bloque2{
+background-color: white;
+padding-left: 80px;
+padding-top: 10%;
+height: 600px;
+}
