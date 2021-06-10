@@ -1,0 +1,57 @@
+.contenidos{
+    font-family: serif;
+    font-weight: lighter;
+}
+.contenido51{
+    background-image: url(../images/tratamiento2.png);
+    background-repeat: no-repeat;
+    background-size: 900px;
+    background-position: center 260px;
+    margin:auto;
+    height: 800px;
+    color:#332D2D;
+    }
+
+    .contenido61{
+            margin-top: 100px;
+            margin-bottom: 100px;
+            font-family: serif;
+            font-weight: lighter;
+            text-align: center;
+            max-width: 60%;
+            margin:auto;
+    color:white;
+    padding-top: 80px;
+    padding-bottom: 80px; 
+    color:#332D2D;
+
+    }.contenido52{
+        background-image: url(../images/tratamiento5.png);
+        background-repeat: no-repeat;
+        background-size: 900px;
+        background-position: center 260px;
+        margin:auto;
+        height: 800px;
+        color:#332D2D;
+        }
+
+@media (max-width: 800px){
+.contenido51{
+    background-size: 400px;
+    margin-bottom:0px;
+    height: 500px;
+}    
+
+.contenido61{
+margin-top:0px;
+padding-top: -400px;
+
+}
+
+.contenido52{
+ 
+    background-size: 400px;
+    height: 600px;
+
+}
+}

@@ -1,0 +1,38 @@
+.titulo-centrado2{
+    text-align: center;
+    padding-top: 10%;
+    font-size: 25px;
+    font-weight: bold; 
+    color: #332D2D;
+    margin-bottom: 140px;
+}
+
+.contenidos{
+max-width: 70%;
+ margin:auto;
+font-family: serif; 
+ color:white;
+text-align: center;
+}
+
+.contenido1{
+background-image: url(../images/nosotros.png);
+background-repeat: no-repeat;
+background-size: 900px;
+background-position: center 260px;
+margin:auto;
+height: 800px;
+}
+
+.contenido2{
+ margin-top: 100px;
+ margin-bottom: 100px;
+}
+
+@media (max-width: 800px){
+.contenido1{
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: center 400px;
+}
+}
